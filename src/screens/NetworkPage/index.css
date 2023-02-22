@@ -1,0 +1,8 @@
+.network-title {
+    font-size: 40px !important;
+}
+
+li {
+    display: list-item;
+    list-style-position: inside;
+}
