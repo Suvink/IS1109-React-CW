@@ -1,0 +1,7 @@
+.child-component-section{
+    height: 5rem;
+    background-color: lightblue;
+}
+.message-text{
+    font-size: 25px;
+}

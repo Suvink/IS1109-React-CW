@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./index.css";
+import ChildComponent from './components/ChildComponent';
 
 function HomePage(props) {
 
@@ -21,6 +22,10 @@ function HomePage(props) {
             <h1 className="home-title">Count: {counter}</h1>
             <h1 className="home-title">Second Count: {secondCounter}</h1>
             <button className="button is-primary" onClick={increment}>Click Me</button>
+
+            <div className="parent-child-section mt-6">
+                <ChildComponent message="It works!" />
+            </div>
         </div>
     );
 }
